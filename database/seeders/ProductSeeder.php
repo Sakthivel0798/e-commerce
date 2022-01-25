@@ -25,7 +25,7 @@ class ProductSeeder extends Seeder
             ],
             [
                 'name' => 'Oppo mobile',
-                'price' => 900,
+                'price' => 700,
                 'category' => 'mobile',
                 'description' => 'A smartphone with 8GB RAM',
                 'gallery' => 'https://image.oppo.com/content/dam/oppo/au/mkt/homepage/homepage-top-banner/reno4-simba-mobile-banner-mobile.jpg'
@@ -33,7 +33,7 @@ class ProductSeeder extends Seeder
             ],
             [
                 'name' => 'SONY Tv',
-                'price' => 1000,
+                'price' => 900,
                 'category' => 'tv',
                 'description' => 'A 36Inch SmartTv',
                 'gallery' => 'https://res.feednews.com/assets/v2/091d8d1d8e2ad86a6e1679d10675b599?width=1280&height=720&quality=hq&category=us_Digital_Technology'
@@ -41,7 +41,7 @@ class ProductSeeder extends Seeder
             ],
             [
                 'name' => 'Panasonic Tv',
-                'price' => 9999,
+                'price' => 1000,
                 'category' => 'tv',
                 'description' => 'A 42Inch SmartTv',
                 'gallery' => 'https://5.imimg.com/data5/FY/LN/MY-7430189/e400-panasonic-led-tv-500x500.jpg'
