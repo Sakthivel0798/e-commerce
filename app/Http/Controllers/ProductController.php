@@ -74,7 +74,7 @@ class ProductController extends Controller
     function orderNow()
     {
         $userId = Session::get('user')['id'];
-        $total = $products =DB::table('carts')
+        $total = DB::table('carts')
         ->join('products', 'carts.product_id', '=', 'products.id')
         ->where('carts.user_id', $userId)
         ->sum('products.price');
